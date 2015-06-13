@@ -80,8 +80,6 @@
 				2788032E1B2C780C0038821B /* AppDelegate.swift */,
 				278803301B2C780C0038821B /* ViewController.swift */,
 				278803321B2C780C0038821B /* Main.storyboard */,
-				278803351B2C780C0038821B /* Images.xcassets */,
-				278803371B2C780C0038821B /* LaunchScreen.xib */,
 				2788032C1B2C780C0038821B /* Supporting Files */,
 			);
 			path = CardCounter;
@@ -90,6 +88,8 @@
 		2788032C1B2C780C0038821B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				278803371B2C780C0038821B /* LaunchScreen.xib */,
+				278803351B2C780C0038821B /* Images.xcassets */,
 				2788032D1B2C780C0038821B /* Info.plist */,
 			);
 			name = "Supporting Files";
