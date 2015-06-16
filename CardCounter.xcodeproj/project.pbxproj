@@ -411,6 +411,7 @@
 				2788034A1B2C780D0038821B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2788034B1B2C780D0038821B /* Build configuration list for PBXNativeTarget "CardCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				2788034D1B2C780D0038821B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
