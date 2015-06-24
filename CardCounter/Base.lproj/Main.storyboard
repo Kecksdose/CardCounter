@@ -20,26 +20,35 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="frD-ju-Q4m">
                                 <rect key="frame" x="228" y="75" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ 9 ♥︎">
+                                <state key="normal" title="♥︎9">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OQB-p1-PLV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BPE-SG-tgh">
                                 <rect key="frame" x="266" y="75" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ K ♥︎">
+                                <state key="normal" title="♥︎K">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="63P-Oa-Q82"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="R0c-qT-hMj">
                                 <rect key="frame" x="342" y="75" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ A ♥︎">
+                                <state key="normal" title="♥︎A">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y0s-fc-P7x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ydX-uf-tNL">
                                 <rect key="frame" x="304" y="75" width="30" height="45"/>
@@ -52,34 +61,46 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="MGT-LR-9hp">
                                 <rect key="frame" x="228" y="128" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ 9 ♠︎">
+                                <state key="normal" title="♠︎9">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNR-aq-9Cj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6nD-aP-s2J">
                                 <rect key="frame" x="266" y="128" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ K ♠︎">
+                                <state key="normal" title="♠︎K">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Rz-Ky-GMY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="y3E-yh-4e2">
                                 <rect key="frame" x="342" y="128" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ A ♠︎">
+                                <state key="normal" title="♠︎A">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mje-Vn-O61"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Zb2-mi-j9E">
                                 <rect key="frame" x="304" y="128" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ 10 ♠︎">
+                                <state key="normal" title="♠︎T">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYo-RH-78I"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CardCounter (v.0.1)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyv-Jy-R3E">
                                 <rect key="frame" x="24" y="28" width="552" height="26"/>
@@ -96,6 +117,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="undoAllClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f02-n1-oSU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqX-JL-R29">
                                 <rect key="frame" x="304" y="562" width="272" height="30"/>
@@ -106,134 +130,185 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7sU-Ic-R9c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Jnp-cl-A7m">
                                 <rect key="frame" x="266" y="181" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ K ♣︎">
+                                <state key="normal" title="♣︎K">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLM-dl-69r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="c3J-uh-WvH">
                                 <rect key="frame" x="342" y="181" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ A ♣︎">
+                                <state key="normal" title="♣︎A">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Eb-cE-CT1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qbj-8T-Oj5">
                                 <rect key="frame" x="304" y="181" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ 10 ♣︎">
+                                <state key="normal" title="♣︎T">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cS-rZ-S1w"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NyE-SG-tYK">
                                 <rect key="frame" x="228" y="181" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ 9 ♣︎">
+                                <state key="normal" title="♣︎9">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4RG-5H-1cm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WGZ-1y-9B8">
                                 <rect key="frame" x="266" y="234" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ K ◆">
+                                <state key="normal" title="◆K">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JQQ-Zi-VCp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="izD-lh-UFA">
                                 <rect key="frame" x="342" y="234" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ A ◆">
+                                <state key="normal" title="◆A">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uQG-5M-dda"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wuc-Xp-0lv">
                                 <rect key="frame" x="304" y="234" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ 10 ◆">
+                                <state key="normal" title="◆T">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jHt-JT-pmh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-Hn-jyf">
                                 <rect key="frame" x="228" y="234" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ 9 ◆">
+                                <state key="normal" title="◆9">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hB7-6o-PKf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cNt-M8-M4m">
                                 <rect key="frame" x="266" y="287" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ B ♥︎">
+                                <state key="normal" title="♥︎B">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6K6-1O-oV7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WUH-if-w53">
                                 <rect key="frame" x="304" y="287" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ B ♠︎">
+                                <state key="normal" title="♠︎B">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IOf-JO-fj1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ovK-2X-56c">
                                 <rect key="frame" x="342" y="287" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ B ♣︎">
+                                <state key="normal" title="♣︎B">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4x-da-wtt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qmg-mk-Gzg">
                                 <rect key="frame" x="228" y="287" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ B ◆">
+                                <state key="normal" title="◆B">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="URU-pi-b97"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="A0A-DE-ugx">
                                 <rect key="frame" x="266" y="340" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ D ♥︎">
+                                <state key="normal" title="♥︎D">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JzB-fU-Qdq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zQN-58-hQy">
                                 <rect key="frame" x="304" y="340" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♠︎ D ♠︎">
+                                <state key="normal" title="♠︎D">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ki4-z1-aP5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9CW-R8-3RD">
                                 <rect key="frame" x="342" y="340" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♣︎ D ♣︎">
+                                <state key="normal" title="♣︎D">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoX-3f-7Mk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XRE-A2-SS7">
                                 <rect key="frame" x="228" y="340" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="◆ D ◆">
+                                <state key="normal" title="◆D">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEz-KV-4gt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="d8p-2p-sP0">
                                 <rect key="frame" x="266" y="393" width="30" height="45"/>
@@ -262,11 +337,23 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Vfl-QO-gRH">
                                 <rect key="frame" x="228" y="393" width="30" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="♥︎ 10 ♥︎">
+                                <state key="normal" title="♥︎T">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cardClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqI-G5-w9d"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your cards!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeU-0k-apV">
+                                <rect key="frame" x="24" y="512" width="552" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Ugy-l3-9ey"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -276,6 +363,7 @@
                             <constraint firstItem="R0c-qT-hMj" firstAttribute="width" secondItem="c3J-uh-WvH" secondAttribute="width" id="18w-Id-DvY"/>
                             <constraint firstItem="izD-lh-UFA" firstAttribute="top" secondItem="c3J-uh-WvH" secondAttribute="bottom" constant="8" id="1Yq-ii-rRk"/>
                             <constraint firstItem="R0c-qT-hMj" firstAttribute="width" secondItem="MGT-LR-9hp" secondAttribute="width" id="205-27-rkF"/>
+                            <constraint firstItem="CeU-0k-apV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="2QC-8D-ns6"/>
                             <constraint firstItem="Vfl-QO-gRH" firstAttribute="height" secondItem="JjZ-5c-eX5" secondAttribute="height" id="2hg-7u-eTT"/>
                             <constraint firstItem="Zb2-mi-j9E" firstAttribute="top" secondItem="ydX-uf-tNL" secondAttribute="bottom" constant="8" id="4SO-L3-rAA"/>
                             <constraint firstItem="cNt-M8-M4m" firstAttribute="top" secondItem="WGZ-1y-9B8" secondAttribute="bottom" constant="8" id="5AO-yN-YcF"/>
@@ -365,10 +453,12 @@
                             <constraint firstItem="izD-lh-UFA" firstAttribute="height" secondItem="wuc-Xp-0lv" secondAttribute="height" id="lX4-zj-kv5"/>
                             <constraint firstItem="MGT-LR-9hp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="lcR-JR-B9v"/>
                             <constraint firstItem="Qbj-8T-Oj5" firstAttribute="top" secondItem="Zb2-mi-j9E" secondAttribute="bottom" constant="8" id="lgR-4y-tmQ"/>
+                            <constraint firstItem="eqX-JL-R29" firstAttribute="top" secondItem="CeU-0k-apV" secondAttribute="bottom" constant="8" id="m5I-6u-vfD"/>
                             <constraint firstItem="izD-lh-UFA" firstAttribute="height" secondItem="mxf-Hn-jyf" secondAttribute="height" id="mFe-jt-cqG"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eqX-JL-R29" secondAttribute="bottom" constant="8" id="mVZ-C7-Wqs"/>
                             <constraint firstItem="izD-lh-UFA" firstAttribute="width" secondItem="wuc-Xp-0lv" secondAttribute="width" id="n0Q-er-zPx"/>
                             <constraint firstItem="IoZ-vO-CGi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="naX-zU-tzb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CeU-0k-apV" secondAttribute="trailing" constant="8" id="o0b-cO-A2f"/>
                             <constraint firstItem="d8p-2p-sP0" firstAttribute="top" secondItem="A0A-DE-ugx" secondAttribute="bottom" constant="8" id="oIG-Sa-4Ve"/>
                             <constraint firstItem="eqX-JL-R29" firstAttribute="width" secondItem="IoZ-vO-CGi" secondAttribute="width" id="oqP-PP-mD4"/>
                             <constraint firstItem="mxf-Hn-jyf" firstAttribute="top" secondItem="NyE-SG-tYK" secondAttribute="bottom" constant="8" id="p4S-R6-qh7"/>
@@ -396,6 +486,9 @@
                             <constraint firstItem="Zb2-mi-j9E" firstAttribute="leading" secondItem="6nD-aP-s2J" secondAttribute="trailing" constant="8" id="yop-bn-F5l"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardLabel" destination="CeU-0k-apV" id="Ty7-G8-M6v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

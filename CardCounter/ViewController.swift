@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var cardCounter = CardCounter()
+  
+  @IBOutlet var cardLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,22 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  @IBAction func cardClicked(sender: UIButton) {
+    var cardName = sender.titleLabel!.text
+    let selectedCards = cardCounter.addCardToSelectedCards(cardName!)
+    cardLabel.text = "\(selectedCards)"
+  }
+  
+  @IBAction func undoAllClicked(sender: UIButton) {
+    cardCounter.resetSelectedCards()
+    cardLabel.text = ""
+  }
+  
+  @IBAction func submitClicked(sender: UIButton) {
+    cardCounter.printSelectedCards()
+    let timestamp = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
+    cardLabel.text = "Submitted at \(timestamp)"
+  }
 
 }
 
