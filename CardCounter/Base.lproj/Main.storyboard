@@ -488,6 +488,8 @@
                     </view>
                     <connections>
                         <outlet property="cardLabel" destination="CeU-0k-apV" id="Ty7-G8-M6v"/>
+                        <outlet property="submitButton" destination="eqX-JL-R29" id="1vM-aw-uAC"/>
+                        <outlet property="undoAllButton" destination="IoZ-vO-CGi" id="D1x-3J-2ub"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
